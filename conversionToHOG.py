@@ -5,7 +5,7 @@ from skimage import exposure
 import matplotlib.pyplot as plt
 
 # reading the image
-img = imread('astha.jpeg')
+img = imread('img.jpeg')
 plt.axis("off")
 plt.imshow(img)
 print(img.shape)
